@@ -1,0 +1,113 @@
+/*Everything is currently set to 90% of the viewport to avoid having
+any occurences where a scrollbar breaks the page because it's not 
+processed as existing by the CSS rules, as is prone to happen. Working
+on finding a more elegant solution.
+
+Additionally, there's something odd happening that neither my mentor
+or I could figure out, where the higher-specificity background colors
+are being overwritten by the lower-specificity ones. Working through 
+that as well. */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2118BB;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #d9d9d9;
+}
+
+p {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+h2 {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-size: 30px;
+}
+
+.navbar {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid grey;
+    width: 90vw;
+    justify-content: space-evenly;
+    background-color: #857FDE;
+}
+
+.project-links {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid grey;
+    width: 90vw;
+    justify-content: space-evenly;
+}
+
+.project-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    width: 20vw;
+    height: 38px;
+    background-color: #5858CF
+}
+
+.project-container {
+    margin: auto;
+    text-align: center;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    width: 20vw;
+    height: 38px;
+    background-color: #5858CF
+}
+
+.info-segment {
+    border: 1px solid grey;
+    background-color: rgb(26, 20, 148) !important;
+    margin: auto;
+    text-align: center;
+    width: 90vw;
+}
+
+.contact-info-container {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid grey;
+    width: 90vw;
+    justify-content: space-evenly;
+    background-color: #857FDE;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    width: 20vw;
+    height: 38px;
+    background-color: #5858CF
+}
+
+.project-button {
+    border: 1px solid grey;
+}
+
+.project-screenshot {
+    width: 100%;
+}
