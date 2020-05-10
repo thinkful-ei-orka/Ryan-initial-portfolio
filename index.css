@@ -8,13 +8,16 @@ or I could figure out, where the higher-specificity background colors
 are being overwritten by the lower-specificity ones. Working through 
 that as well. */
 
+html {
+    background-color: #2118BB;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #2118BB;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #d9d9d9;
 }
 
@@ -122,4 +125,10 @@ nav {
 .project-screenshot {
     width: 80%;
     padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    * {
+        font-size: 14px;
+    }
 }
