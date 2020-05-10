@@ -37,6 +37,14 @@ h2 {
     padding-bottom: 25px;
 }
 
+h3 {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-size: 20px;
+    padding-top:5px;
+    padding-bottom:15px;
+}
+
 nav {
     position: fixed;
     left: 50%;
